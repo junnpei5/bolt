@@ -84,6 +84,7 @@ img {
   color: #f2f2f2;
   background-color: #74cfae;
   text-decoration: none;
+  display: none;
 }
 
 @media screen and (max-width: 1199px) {
