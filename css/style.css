@@ -77,6 +77,10 @@ img {
   margin-bottom: 0;
 }
 
+.sp__menu__btn {
+  display: none;
+}
+
 .sp__contact__btn {
   padding: 20px;
   margin-bottom: 20px;
@@ -235,6 +239,7 @@ img {
 
 .nav__btn__block {
   justify-content: center;
+  display: flex;
 }
 
 .nav__btn__outer {
@@ -248,6 +253,7 @@ img {
 
 .nav__btn {
   padding: 30px 0;
+  width: 185px;
 }
 
 .icon__color {
@@ -377,20 +383,6 @@ img {
   }
 }
 
-@media screen and (min-width: 767px) {
-  .sp__menu__btn {
-    display: none;
-  }
-
-  .nav__btn__block {
-    display: flex;
-  }
-
-  .nav__btn {
-    width: 185px;
-  }
-}
-
 @media screen and (max-width: 766px){
   .header__btn {
     display: none;
@@ -416,7 +408,15 @@ img {
     width: 100%;
   }
 
+  .nav__btn__block {
+    display: block;
+  }
+
   .nav__btn__outer {
     padding: 0 15px;
+  }
+
+  .sp__menu__btn {
+    display: block;
   }
 }
